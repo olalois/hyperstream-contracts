@@ -1,6 +1,6 @@
 # Access Layer Contracts
 
-This repository contains the on-chain smart contracts for Access Layer on Stellar using Soroban.
+This repository contains the Rust and Soroban contract workspace for Access Layer, a Stellar-native creator-keys ecosystem. The contracts keep high-trust operations such as ownership, pricing, and fee distribution verifiable on-chain.
 
 These contracts hold the trust-sensitive marketplace rules. The goal is to keep pricing, ownership, and fee logic on-chain while leaving general application features to the server and client.
 
@@ -25,15 +25,19 @@ The contracts layer is responsible for:
 ## Workspace layout
 
 * [Cargo.toml](./Cargo.toml): Rust workspace configuration
-* [creator-keys](./creator-keys): first Soroban contract crate
+The workspace includes `creator-keys`, `creator-keys-factory`, `referral-contract`, `lp-reward-contract`, `key-staking-contract`, `multisig-admin`, `nonce-registry`, `session-nonce`, `launch-auction`, `key-liquidity-depth`, `seasonal-rewards`, `auto-invest-registry`, `key-analytics`, `dividend-contract`, and `subscription-contract`.
 
 ## Current state
 
-The initial `creator-keys` contract is only a starting point. It currently supports:
+The repository is organized as a multi-contract workspace, with documentation covering authorization, storage invariants, events, quote behavior, and testnet deployment. Continuous integration runs formatting checks, Clippy with warnings denied, and the workspace test suite on pushes to `main` and pull requests.
 
-* simple creator registration
-* a basic purchase action that increments creator supply
-* reading stored creator data
+## Funding priorities
+
+Grant support can be tied to public, verifiable deliverables:
+
+* Expand deterministic tests for authorization boundaries, state transitions, and economic invariants.
+* Commission an independent review of contract authorization, storage, and pricing paths, then publish findings and remediation status.
+* Exercise the Stellar testnet deployment and release process with versioned WASM artifacts and reproducible instructions.
 
 ## Verification
 

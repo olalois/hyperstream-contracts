@@ -205,7 +205,7 @@ See [docs/deterministic-quote-tests.md](./deterministic-quote-tests.md) for guid
 The CI status badge is displayed in the README:
 
 ```markdown
-![CI Status](https://github.com/your-org/accesslayer-contracts/workflows/Contracts%20CI/badge.svg)
+![CI Status](https://github.com/your-org/hyperstream-contracts/workflows/Contracts%20CI/badge.svg)
 ```
 
 A green badge indicates all checks are passing.

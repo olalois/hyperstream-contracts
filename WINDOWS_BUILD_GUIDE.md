@@ -46,7 +46,7 @@ WSL provides a native Linux environment that's ideal for Rust development:
 
 3. **Navigate to your project** (Windows drives are mounted at /mnt/):
    ```bash
-   cd /mnt/c/Users/USER/Desktop/GrantFox/accesslayer-contracts
+   cd /mnt/c/Users/USER/Desktop/GrantFox/hyperstream-contracts
    ```
 
 4. **Install Soroban CLI**:

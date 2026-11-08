@@ -1,4 +1,4 @@
-//! Tests for protocol initialisation state (accesslayerorg/accesslayer-contracts#723).
+//! Tests for protocol initialisation state (accesslayerorg/hyperstream-contracts#723).
 //!
 //! There is no single `initialise` entrypoint: protocol initialisation is the
 //! setter sequence `set_protocol_admin`, `set_key_price`, `set_fee_config`,
