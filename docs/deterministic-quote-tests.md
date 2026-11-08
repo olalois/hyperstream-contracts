@@ -1,6 +1,6 @@
 # Deterministic Quote Tests - Contributor Guide
 
-This document provides guidance for contributors writing tests for quote operations (buy and sell quotes) in Access Layer contracts.
+This document provides guidance for contributors writing tests for quote operations (buy and sell quotes) in Hyper stream contracts.
 
 ## Overview
 
@@ -59,7 +59,7 @@ Use descriptive names that explain what is being tested:
 
 ## Fixed Price Model
 
-Access Layer uses a **fixed price model**:
+Hyper stream uses a **fixed price model**:
 
 - **Global price**: All creators share the same key price (stored in `KeyPrice` storage key)
 - **Fixed per key**: Each key costs the same amount, regardless of supply

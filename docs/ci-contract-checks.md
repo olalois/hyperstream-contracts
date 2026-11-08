@@ -1,6 +1,6 @@
 # CI Contract Checks
 
-This document describes the continuous integration (CI) checks that run on every pull request and push to the main branch for Access Layer contracts.
+This document describes the continuous integration (CI) checks that run on every pull request and push to the main branch for Hyper stream contracts.
 
 ## Overview
 

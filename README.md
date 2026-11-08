@@ -1,6 +1,6 @@
-# Access Layer Contracts
+# Hyper stream Contracts
 
-This repository contains the Rust and Soroban contract workspace for Access Layer, a Stellar-native creator-keys ecosystem. The contracts keep high-trust operations such as ownership, pricing, and fee distribution verifiable on-chain.
+This repository contains the Rust and Soroban contract workspace for Hyper stream, a Stellar-native creator-keys ecosystem. The contracts keep high-trust operations such as ownership, pricing, and fee distribution verifiable on-chain.
 
 These contracts hold the trust-sensitive marketplace rules. The goal is to keep pricing, ownership, and fee logic on-chain while leaving general application features to the server and client.
 
@@ -33,11 +33,13 @@ The repository is organized as a multi-contract workspace, with documentation co
 
 ## Funding priorities
 
-Grant support can be tied to public, verifiable deliverables:
+Grant support would advance work with public, verifiable outputs. These are proposed work packages, not claims that the work is already complete:
 
-* Expand deterministic tests for authorization boundaries, state transitions, and economic invariants.
-* Commission an independent review of contract authorization, storage, and pricing paths, then publish findings and remediation status.
-* Exercise the Stellar testnet deployment and release process with versioned WASM artifacts and reproducible instructions.
+* **Invariant testing:** expand deterministic tests for authorization boundaries, state transitions, and economic invariants; run the new tests in continuous integration.
+* **Independent security review:** commission a review of contract authorization, storage, and pricing paths; publish the review scope, findings, and remediation status, coordinating any sensitive disclosure responsibly.
+* **Reproducible testnet release:** exercise the Stellar testnet deployment and release process; publish versioned WASM artifacts with build metadata and checksums, following [the artifact guide](./docs/deploy-artifacts.md).
+
+Each work package can be tracked against its published tests, review artifacts, or release records.
 
 ## Verification
 

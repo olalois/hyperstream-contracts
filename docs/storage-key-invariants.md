@@ -1,6 +1,6 @@
 # Storage Key Invariants
 
-This document describes the storage model, key structure, and invariants that must be maintained across all contract operations in Access Layer contracts.
+This document describes the storage model, key structure, and invariants that must be maintained across all contract operations in Hyper stream contracts.
 
 For quote-specific storage behavior (`get_buy_quote`, `get_sell_quote`), see [quote-storage-keys.md](./quote-storage-keys.md).
 
@@ -10,7 +10,7 @@ For key staking storage keys and the data model, see [key-staking-storage.md](./
 
 ## Overview
 
-Access Layer contracts use Soroban's persistent storage to maintain creator profiles, key balances, and protocol configuration. Understanding these storage invariants is critical for contributors working on contract logic.
+Hyper stream contracts use Soroban's persistent storage to maintain creator profiles, key balances, and protocol configuration. Understanding these storage invariants is critical for contributors working on contract logic.
 
 ## Storage Keys
 

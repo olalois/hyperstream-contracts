@@ -1,5 +1,5 @@
 name: Maintainer task
-description: Create a scoped contributor task for Access Layer contracts.
+description: Create a scoped contributor task for Hyper stream contracts.
 title: "[Task]: "
 labels:
   - help wanted

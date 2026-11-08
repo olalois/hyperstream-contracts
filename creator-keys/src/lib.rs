@@ -12125,7 +12125,7 @@ impl CreatorKeysContract {
 
     /// Read-only view: returns the creator treasury share for a registered creator.
     ///
-    /// Access Layer currently stores creator treasury share as the creator-facing
+    /// Hyper stream currently stores creator treasury share as the creator-facing
     /// basis-point share in protocol fee configuration. This method provides a
     /// creator-scoped accessor without mutating state.
     pub fn get_creator_treasury_share(env: Env, creator: Address) -> Result<u32, ContractError> {

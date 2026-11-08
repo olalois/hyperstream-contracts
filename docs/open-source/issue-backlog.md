@@ -1,4 +1,4 @@
-# Access Layer Contracts Issue Backlog
+# Hyper stream Contracts Issue Backlog
 
 This backlog is organized into contributor-ready sections. Each section contains 10 scoped issue drafts that can be opened individually on GitHub.
 

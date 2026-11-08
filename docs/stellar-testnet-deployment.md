@@ -1,6 +1,6 @@
 # Stellar Testnet Deployment
 
-This guide documents the minimum path to build, deploy, and smoke-test the Access Layer contracts on Stellar testnet.
+This guide documents the minimum path to build, deploy, and smoke-test the Hyper stream contracts on Stellar testnet.
 
 It is intentionally lightweight. Use it for contributor validation, review environments, and Wave work before any mainnet discussion.
 

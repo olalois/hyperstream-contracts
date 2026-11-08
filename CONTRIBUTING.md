@@ -1,6 +1,6 @@
-# Contributing to Access Layer Contracts
+# Contributing to Hyper stream Contracts
 
-Thanks for contributing to the Soroban contracts behind Access Layer, a Stellar-native creator keys marketplace.
+Thanks for contributing to the Soroban contracts behind Hyper stream, a Stellar-native creator keys marketplace.
 
 ## Before you start
 
@@ -89,7 +89,7 @@ For testnet deployment steps, required CLI setup, and the release checklist used
 - Treat buy, sell, fee, and supply logic as high-sensitivity areas.
 - Prefer incremental contract changes over sweeping redesigns.
 - Add or update tests for every behavior change.
-- Keep names and comments specific to Access Layer and Stellar, not generic template wording.
+- Keep names and comments specific to Hyper stream and Stellar, not generic template wording.
 
 ## Good first issue guidance
 

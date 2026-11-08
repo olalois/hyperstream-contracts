@@ -1,6 +1,6 @@
 # Local Soroban Prerequisites
 
-Use this guide to prepare a local machine for building and testing the Access Layer contracts.
+Use this guide to prepare a local machine for building and testing the Hyper stream contracts.
 
 ## Required Tools
 

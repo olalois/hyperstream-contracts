@@ -1,6 +1,6 @@
 # Contract outputs: client, server, and compatibility
 
-Access Layer’s **Soroban** contracts are the on-chain source of truth for registration, key supply, pricing, and fee configuration. The **client** (wallet, web app) and **server** (API, indexers) consume specific **read surfaces** and **event payloads** from those contracts. This page lists the main dependencies and the compatibility expectations when those outputs change.
+Hyper stream’s **Soroban** contracts are the on-chain source of truth for registration, key supply, pricing, and fee configuration. The **client** (wallet, web app) and **server** (API, indexers) consume specific **read surfaces** and **event payloads** from those contracts. This page lists the main dependencies and the compatibility expectations when those outputs change.
 
 For fee math and rounding, see [fee-assumptions.md](./fee-assumptions.md). For testnet build and deploy steps, see [stellar-testnet-deployment.md](./stellar-testnet-deployment.md). For static names of read-only entrypoints (useful to indexers and version checks), see the `constants::creator_reads` submodule in `creator-keys` source.
 

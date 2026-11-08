@@ -1,6 +1,6 @@
 # Fee Split Assumptions
 
-This document describes the assumptions, behavior, and integration points for creator and protocol fee split logic in Access Layer contracts.
+This document describes the assumptions, behavior, and integration points for creator and protocol fee split logic in Hyper stream contracts.
 
 ## Fee Representation
 

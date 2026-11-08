@@ -1,6 +1,6 @@
-# Access Layer Code of Conduct
+# Hyper stream Code of Conduct
 
-We want Access Layer to be welcoming to contributors of different backgrounds and experience levels.
+We want Hyper stream to be welcoming to contributors of different backgrounds and experience levels.
 
 ## Expected behavior
 
